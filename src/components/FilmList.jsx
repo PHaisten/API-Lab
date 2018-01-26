@@ -14,6 +14,7 @@ class FilmList extends Component {
       .then(Response => Response.json())
       .then(object => this.setState({ movies: object }));
   }
+
   render() {
     return (
       <div className="container mt-5">
